@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+a {
+  font-weight: bold;
+}
+
+#todos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: .5em;
+  margin-bottom: .5em;
+}
+
+#breadcrumbs-container {
+  margin-bottom: .5em;
+}
+
+#breadcrumbs-container a,
+#breadcrumbs-container a:visited {
+  color: #0064da;
+  text-decoration: none;
+  margin-right: .5em;
+}
+
+#breadcrumbs a::before {
+  content: "→";
+  color: #aaa;
+  margin-right: .5em;
+}

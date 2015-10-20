@@ -1,0 +1,10 @@
+input {
+  display: block;
+  width: 100%;
+  font: inherit;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #aaa;
+}
